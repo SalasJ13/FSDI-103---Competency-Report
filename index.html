@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/6da635e2db.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Competency Report</title>
+</head>
+<body>
+    <header>
+        <h1><i class="fas fa-bone"></i><br>Simple VideoGame in JavaScript</h1>
+        <h2>Conscious to the Pug</h2>
+    </header>
+
+    <main>
+        <div>
+            <img src="pug-gif.gif" alt="tamagotchi">
+                <table >
+                    <tr>
+                        <th>Hunger</th>
+                        <th>Happiness</th>
+                        <th>Energy</th>
+                    </tr>
+                    <tr>
+                        <td>🍗 <span id="hungerPoints">0</span></td>
+                        <td>❤️ <span id="happinessPoints">0</span></td>
+                        <td>🔋 <span id="energyPoints">0</span></td>
+                    </tr>
+                </table>
+        </div>
+        <div>
+            <button onclick="feed();">🍴</button>
+            <button onclick="pet();">❤️</button>
+            <button onclick="play();">🔴</button>
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
